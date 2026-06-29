@@ -7,7 +7,7 @@ class Imp < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/snatvb/imp/releases/download/v#{version}/imp-#{version}-mac-arm64.tar.gz"
-      sha256 "a63fe9d90c35eb0332a27d9acc742c64a6a69fdfd268163526b3866606d9bd8c"
+      sha256 "583c9b4a8ce9403fa58fe4433ff2e6a26548b4d8ac7608b8fdb9581d90dbfa57"
     else
       on_intel do
         url "https://github.com/snatvb/imp/releases/download/v#{version}/imp-#{version}-linux-x64.tar.gz"
@@ -19,10 +19,10 @@ class Imp < Formula
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/snatvb/imp/releases/download/v#{version}/imp-#{version}-linux-arm64.tar.gz"
-      sha256 "a77448c7e5ededcfb0874647dabc7b429cf69b770f343b586f23d83e689b091c"
+      sha256 "fc9acfe4ae2596558c1517944898cfa14942cb08958eabd0af688670023bdef5"
     else
       url "https://github.com/snatvb/imp/releases/download/v#{version}/imp-#{version}-linux-x64.tar.gz"
-      sha256 "PLACEHOLDER_LINUX_X64_SHA256"
+      sha256 "c9476630183fe277980cb571a0f856d94bc714428db40178bd9a7a656e40d44b"
     end
   end
 
