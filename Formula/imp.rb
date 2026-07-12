@@ -1,28 +1,28 @@
 class Imp < Formula
   desc "TypeScript/JavaScript runtime — one binary, no node_modules"
   homepage "https://github.com/snatvb/imp"
-  version "v0.1.1"
+  version "PLACEHOLDER_VERSION"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/snatvb/imp/releases/download/v0.1.1/imp-v0.1.1-mac-arm64.tar.gz"
-      sha256 "583c9b4a8ce9403fa58fe4433ff2e6a26548b4d8ac7608b8fdb9581d90dbfa57"
+      url "https://github.com/snatvb/imp/releases/download/PLACEHOLDER_VERSION/imp-PLACEHOLDER_VERSION-mac-arm64.tar.gz"
+      sha256 "PLACEHOLDER_MAC_ARM64_SHA256"
     else
       on_intel do
-        url "https://github.com/snatvb/imp/releases/download/v0.1.1/imp-v0.1.1-linux-x64.tar.gz"
-        sha256 "4737e7e5b73e2611f56038592b892028650f38aa734f255715255949363639bf"
+        url "https://github.com/snatvb/imp/releases/download/PLACEHOLDER_VERSION/imp-PLACEHOLDER_VERSION-linux-x64.tar.gz"
+        sha256 "PLACEHOLDER_LINUX_X64_SHA256"
       end
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/snatvb/imp/releases/download/v0.1.1/imp-v0.1.1-linux-arm64.tar.gz"
-      sha256 "fc9acfe4ae2596558c1517944898cfa14942cb08958eabd0af688670023bdef5"
+      url "https://github.com/snatvb/imp/releases/download/PLACEHOLDER_VERSION/imp-PLACEHOLDER_VERSION-linux-arm64.tar.gz"
+      sha256 "PLACEHOLDER_LINUX_ARM64_SHA256"
     else
-      url "https://github.com/snatvb/imp/releases/download/v0.1.1/imp-v0.1.1-linux-x64.tar.gz"
-      sha256 "c9476630183fe277980cb571a0f856d94bc714428db40178bd9a7a656e40d44b"
+      url "https://github.com/snatvb/imp/releases/download/PLACEHOLDER_VERSION/imp-PLACEHOLDER_VERSION-linux-x64.tar.gz"
+      sha256 "PLACEHOLDER_LINUX_X64_SHA256"
     end
   end
 
