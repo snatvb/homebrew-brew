@@ -1,28 +1,28 @@
 class Imp < Formula
   desc "TypeScript/JavaScript runtime — one binary, no node_modules"
   homepage "https://github.com/snatvb/imp"
-  version "v0.1.2"
+  version "v0.1.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/snatvb/imp/releases/download/v0.1.2/imp-v0.1.2-mac-arm64.tar.gz"
-      sha256 "1e14710b0eaf8f915b490fe87003b0f95cb40ac7184f48e69f77ee213bf809d4"
+      url "https://github.com/snatvb/imp/releases/download/v0.1.3/imp-v0.1.3-mac-arm64.tar.gz"
+      sha256 "a22b4f2eadb508556b284ea20d88cf5c69f49b2935c9cb0936e16794f9bde42f"
     else
       on_intel do
-        url "https://github.com/snatvb/imp/releases/download/v0.1.2/imp-v0.1.2-linux-x64.tar.gz"
-        sha256 "2f16a4148e06aac4e041c0a77d7afeb0d01f3f99361197a158e1bb632341e3c6"
+        url "https://github.com/snatvb/imp/releases/download/v0.1.3/imp-v0.1.3-linux-x64.tar.gz"
+        sha256 "57b7742783465e3aa20a30297d43e17a24f9bbefcbf70c85c7be93e05a804a38"
       end
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/snatvb/imp/releases/download/v0.1.2/imp-v0.1.2-linux-arm64.tar.gz"
-      sha256 "5173383dfa5a7018125653f8d8e48c2385144ebb182ca9b88a9028f2cb39ebfc"
+      url "https://github.com/snatvb/imp/releases/download/v0.1.3/imp-v0.1.3-linux-arm64.tar.gz"
+      sha256 "fa8f582e7c522e1951885ae204e9b3bba1ea439bbfb9ab358d5ec40301059486"
     else
-      url "https://github.com/snatvb/imp/releases/download/v0.1.2/imp-v0.1.2-linux-x64.tar.gz"
-      sha256 "2f16a4148e06aac4e041c0a77d7afeb0d01f3f99361197a158e1bb632341e3c6"
+      url "https://github.com/snatvb/imp/releases/download/v0.1.3/imp-v0.1.3-linux-x64.tar.gz"
+      sha256 "57b7742783465e3aa20a30297d43e17a24f9bbefcbf70c85c7be93e05a804a38"
     end
   end
 
