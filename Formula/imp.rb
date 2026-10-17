@@ -7,11 +7,11 @@ class Imp < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/snatvb/imp/releases/download/v0.1.3/imp-v0.1.3-mac-arm64.tar.gz"
-      sha256 "a22b4f2eadb508556b284ea20d88cf5c69f49b2935c9cb0936e16794f9bde42f"
+      sha256 "ea254c2dd77ac9fdf43f39a3161886f02729f7c9baa3e47c35d493993ac0b892"
     else
       on_intel do
         url "https://github.com/snatvb/imp/releases/download/v0.1.3/imp-v0.1.3-linux-x64.tar.gz"
-        sha256 "57b7742783465e3aa20a30297d43e17a24f9bbefcbf70c85c7be93e05a804a38"
+        sha256 "a2cef118349da28c05bde85b518456558c09ad76c023a4c3a940fe7a30f75391"
       end
     end
   end
@@ -19,10 +19,10 @@ class Imp < Formula
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/snatvb/imp/releases/download/v0.1.3/imp-v0.1.3-linux-arm64.tar.gz"
-      sha256 "fa8f582e7c522e1951885ae204e9b3bba1ea439bbfb9ab358d5ec40301059486"
+      sha256 "235343e6713155e612f571e9d865f6797a2d6cbb359538547534661d4ed048bf"
     else
       url "https://github.com/snatvb/imp/releases/download/v0.1.3/imp-v0.1.3-linux-x64.tar.gz"
-      sha256 "57b7742783465e3aa20a30297d43e17a24f9bbefcbf70c85c7be93e05a804a38"
+      sha256 "a2cef118349da28c05bde85b518456558c09ad76c023a4c3a940fe7a30f75391"
     end
   end
 
